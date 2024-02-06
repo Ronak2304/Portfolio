@@ -1,0 +1,93 @@
+/* *{ */
+    /* background-color: ; */
+/* }/ */
+nav {
+    display: flex;
+    justify-content:right;
+}
+nav div{
+    font-size: 4vh;
+    margin-right: 6vw;
+
+}
+#myphotu{
+    position: absolute;
+    height: 80vh;
+    top: 60%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+}
+#animation1{
+    height: 40vh;
+    width: 25vw;
+    background-color: black;
+    position: absolute;
+    top: 23%;
+    left: 20%;
+}
+#text{
+    /* z-index: -1; */
+    height: 40vh;
+    width: 25vw;
+    background-color: black;
+    position: absolute;
+    top: 55%;
+    right: 14%;
+}
+#video1{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+.solidbgtext{
+    z-index: -1;
+    font-size: 70px;
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
+.solidfadedbgtext{
+    z-index: -1;
+    font-size: 70px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    color: hsla(0, 0%, 0%, 0.833);
+}
+.fadedbgtext{
+    z-index: -1;
+    font-size: 70px;
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    color: hsla(0, 0%, 0%, 0.667);
+}
+.additionalfadedbgtext{
+
+    z-index: -1;
+    font-size: 70px;
+    position: absolute;
+    left: 30%;
+    top: 62%;
+    color: hsla(0, 0%, 0%, 0.500);
+}
+.additionalmorefadedbgtext{
+    z-index: -1;
+    font-size: 70px;
+    position: absolute;
+    left: 30%;
+    top: 77%;
+    color: hsla(0, 0%, 0%, 0.334);
+}
+.additionalcompletefade{
+    z-index: -1;
+    font-size: 70px;
+    position: absolute;
+    left: 30%;
+    top: 92%;
+    color: hsla(0, 0%, 0%, 0.166);
+}
+#about{
+    color: white;
+    justify-content: center;
+}

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Blacknorth;
+    src: url(https://www.fontspace.com/black-north-font-f87052);
+}
+/* #bgtext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+
+nav {
+    display: flex;
+    justify-content:right;
+}
+nav div{
+    font-size: 4vh;
+    margin-right: 6vw;
+    margin-bottom: 13vh;
+}
+img{
+    z-index: 1;
+    height: 75vh;
+    position: absolute;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%,-50%);
+}
